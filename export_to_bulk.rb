@@ -1,8 +1,4 @@
-# Create Entity Table in Elastic
-# * Extracts aggregations from Elasticsearch
-# * Performs calculations on document counts per bucket
-# * Maps the calculated data to the summary table
-# * Performs a bulk index of the summary table
+# Export indices from Elasticsearch
 require "elasticsearch"
 
 class Source
