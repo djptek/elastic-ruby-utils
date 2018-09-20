@@ -1,7 +1,4 @@
-# Create Entity Table in Elastic
-# * Extracts aggregations from Elasticsearch
-# * Creates geo_shapes
-# * Performs a bulk index 
+# Render all shapes stored in Elasticsearch using GNUplot 
 require "elasticsearch"
 require "json"
 require "gnuplot"
