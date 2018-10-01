@@ -1,0 +1,84 @@
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Bb5Bx2QBryUaZNx70koO"} }
+{"track":"Sólo quiero caminar","album":"Sólo quiero caminar","artist":"Paco de Lucía"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Br5Bx2QBryUaZNx70koO"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cr5Bx2QBryUaZNx70koO"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":["Nina Persson","Peter Svensson"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "CL5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "B75Bx2QBryUaZNx70koO"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cb5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Bb5Bx2QBryUaZNx70koO"} }
+{"track":"Sólo quiero caminar","album":"Sólo quiero caminar","artist":"Paco de Lucía"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Br5Bx2QBryUaZNx70koO"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cr5Bx2QBryUaZNx70koO"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":["Nina Persson","Peter Svensson"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "CL5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "B75Bx2QBryUaZNx70koO"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cb5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Bb5Bx2QBryUaZNx70koO"} }
+{"track":"Sólo quiero caminar","album":"Sólo quiero caminar","artist":"Paco de Lucía"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Br5Bx2QBryUaZNx70koO"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cr5Bx2QBryUaZNx70koO"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":["Nina Persson","Peter Svensson"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "CL5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "B75Bx2QBryUaZNx70koO"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cb5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Bb5Bx2QBryUaZNx70koO"} }
+{"track":"Sólo quiero caminar","album":"Sólo quiero caminar","artist":"Paco de Lucía"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Br5Bx2QBryUaZNx70koO"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cr5Bx2QBryUaZNx70koO"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":["Nina Persson","Peter Svensson"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "CL5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "B75Bx2QBryUaZNx70koO"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cb5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Bb5Bx2QBryUaZNx70koO"} }
+{"track":"Sólo quiero caminar","album":"Sólo quiero caminar","artist":"Paco de Lucía"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Br5Bx2QBryUaZNx70koO"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cr5Bx2QBryUaZNx70koO"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":["Nina Persson","Peter Svensson"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "CL5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "B75Bx2QBryUaZNx70koO"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cb5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Bb5Bx2QBryUaZNx70koO"} }
+{"track":"Sólo quiero caminar","album":"Sólo quiero caminar","artist":"Paco de Lucía"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Br5Bx2QBryUaZNx70koO"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cr5Bx2QBryUaZNx70koO"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":["Nina Persson","Peter Svensson"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "CL5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "B75Bx2QBryUaZNx70koO"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cb5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Bb5Bx2QBryUaZNx70koO"} }
+{"track":"Sólo quiero caminar","album":"Sólo quiero caminar","artist":"Paco de Lucía"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Br5Bx2QBryUaZNx70koO"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cr5Bx2QBryUaZNx70koO"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":["Nina Persson","Peter Svensson"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "CL5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "B75Bx2QBryUaZNx70koO"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist", "_type" : "_doc", "_id" : "Cb5Bx2QBryUaZNx70koO"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}

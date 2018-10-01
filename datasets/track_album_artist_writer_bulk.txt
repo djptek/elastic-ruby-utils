@@ -1,0 +1,84 @@
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Er5Gx2QBryUaZNx760oS"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Eb5Gx2QBryUaZNx760oS"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "E75Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fb5Gx2QBryUaZNx760oS"} }
+{"track":"Bark at the Moon","album":"Bark at the Moon","artist":"Ozzy Osbourne","writer":["Ozzy Osbourne"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "FL5Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fr5Gx2QBryUaZNx760oS"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":"Emily Stolfo"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Er5Gx2QBryUaZNx760oS"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Eb5Gx2QBryUaZNx760oS"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "E75Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fb5Gx2QBryUaZNx760oS"} }
+{"track":"Bark at the Moon","album":"Bark at the Moon","artist":"Ozzy Osbourne","writer":["Ozzy Osbourne"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "FL5Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fr5Gx2QBryUaZNx760oS"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":"Emily Stolfo"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Er5Gx2QBryUaZNx760oS"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Eb5Gx2QBryUaZNx760oS"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "E75Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fb5Gx2QBryUaZNx760oS"} }
+{"track":"Bark at the Moon","album":"Bark at the Moon","artist":"Ozzy Osbourne","writer":["Ozzy Osbourne"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "FL5Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fr5Gx2QBryUaZNx760oS"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":"Emily Stolfo"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Er5Gx2QBryUaZNx760oS"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Eb5Gx2QBryUaZNx760oS"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "E75Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fb5Gx2QBryUaZNx760oS"} }
+{"track":"Bark at the Moon","album":"Bark at the Moon","artist":"Ozzy Osbourne","writer":["Ozzy Osbourne"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "FL5Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fr5Gx2QBryUaZNx760oS"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":"Emily Stolfo"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Er5Gx2QBryUaZNx760oS"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Eb5Gx2QBryUaZNx760oS"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "E75Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fb5Gx2QBryUaZNx760oS"} }
+{"track":"Bark at the Moon","album":"Bark at the Moon","artist":"Ozzy Osbourne","writer":["Ozzy Osbourne"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "FL5Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fr5Gx2QBryUaZNx760oS"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":"Emily Stolfo"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Er5Gx2QBryUaZNx760oS"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Eb5Gx2QBryUaZNx760oS"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "E75Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fb5Gx2QBryUaZNx760oS"} }
+{"track":"Bark at the Moon","album":"Bark at the Moon","artist":"Ozzy Osbourne","writer":["Ozzy Osbourne"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "FL5Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fr5Gx2QBryUaZNx760oS"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":"Emily Stolfo"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Er5Gx2QBryUaZNx760oS"} }
+{"track":"Black Sabbath","album":"Black Sabbath","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Eb5Gx2QBryUaZNx760oS"} }
+{"track":"Love And Affection","album":"Joan Armatrading","artist":"Joan Armatrading","writer":"Joan Armatrading"}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "E75Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"Paranoid","artist":"Black Sabbath","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fb5Gx2QBryUaZNx760oS"} }
+{"track":"Bark at the Moon","album":"Bark at the Moon","artist":"Ozzy Osbourne","writer":["Ozzy Osbourne"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "FL5Gx2QBryUaZNx760oS"} }
+{"track":"Iron Man","album":"First Band on the Moon","artist":"The Cardigans","writer":["Geezer Butler","Ozzy Osbourne","Tony Iommi","William Thoma Ward"]}
+{ "index" : { "_index" : "track_album_artist_writer", "_type" : "_doc", "_id" : "Fr5Gx2QBryUaZNx760oS"} }
+{"track":"Lovefool","album":"First Band on the Moon","artist":"The Cardigans","writer":"Emily Stolfo"}

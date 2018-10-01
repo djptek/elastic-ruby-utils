@@ -1,0 +1,28 @@
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "2"} }
+{"cars":[{"model":"Prius","color":"grey","horsepower":121}],"owner_car_relation":{"name":"car","parent":7}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "7"} }
+{"owner_name":"John Doe","owner_car_relation":{"name":"owner"}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "2"} }
+{"cars":[{"model":"Prius","color":"grey","horsepower":121}],"owner_car_relation":{"name":"car","parent":7}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "7"} }
+{"owner_name":"John Doe","owner_car_relation":{"name":"owner"}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "2"} }
+{"cars":[{"model":"Prius","color":"grey","horsepower":121}],"owner_car_relation":{"name":"car","parent":7}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "7"} }
+{"owner_name":"John Doe","owner_car_relation":{"name":"owner"}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "2"} }
+{"cars":[{"model":"Prius","color":"grey","horsepower":121}],"owner_car_relation":{"name":"car","parent":7}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "7"} }
+{"owner_name":"John Doe","owner_car_relation":{"name":"owner"}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "2"} }
+{"cars":[{"model":"Prius","color":"grey","horsepower":121}],"owner_car_relation":{"name":"car","parent":7}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "7"} }
+{"owner_name":"John Doe","owner_car_relation":{"name":"owner"}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "2"} }
+{"cars":[{"model":"Prius","color":"grey","horsepower":121}],"owner_car_relation":{"name":"car","parent":7}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "7"} }
+{"owner_name":"John Doe","owner_car_relation":{"name":"owner"}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "2"} }
+{"cars":[{"model":"Prius","color":"grey","horsepower":121}],"owner_car_relation":{"name":"car","parent":7}}
+{ "index" : { "_index" : "vehicles", "_type" : "_doc", "_id" : "7"} }
+{"owner_name":"John Doe","owner_car_relation":{"name":"owner"}}
