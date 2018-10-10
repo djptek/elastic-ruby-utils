@@ -5,7 +5,7 @@ class Source
     
   Max_Size = 10000
     
-  def initialize (client)
+  def initialize(client)
     @@es_client = client
   end
 
@@ -50,7 +50,7 @@ class Target
   @@operations = ''
   @@index = ''
  
-  def add (hit)
+  def add(hit)
     if hit["_index"] != @@index
         self.bulk_operations unless @@index == ''
         @@index = hit["_index"]
@@ -73,6 +73,6 @@ class Target
 end
 
 # MAIN - connect to Elasticsearch
-source = Source.new(Elasticsearch::Client.new log: false).query
+Source.new(Elasticsearch::Client.new log: false).query
   
 
