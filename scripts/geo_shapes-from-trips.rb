@@ -48,9 +48,6 @@ class Bike_History
     # puts @trajectory
   end
 
-  def write_off
-    return @t2.test == nil
-  end
 end
 
 class Source
