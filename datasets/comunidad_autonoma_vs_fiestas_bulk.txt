@@ -1,0 +1,454 @@
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-01-01"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-01-07"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-02-28"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Día de Andalucía","date":"2019-02-28","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-04-18"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-04-19"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-05-01"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-08-15"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-10-12"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-11-01"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-12-06"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-12-09"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCÍA:2019-12-25"} }
+{"comunidad":"ANDALUCÍA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-5.98,37.37]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-01-01"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-01-07"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-04-18"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-04-19"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-04-23"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"San Jorge / Día de Aragón","date":"2019-04-23","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-05-01"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-08-15"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-10-12"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-11-01"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-12-06"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-12-09"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGÓN:2019-12-25"} }
+{"comunidad":"ARAGÓN","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-0.88,41.66]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-01-01"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-01-07"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-04-18"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-04-19"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-05-01"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-08-15"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-09-09"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Lunes siguiente al Día de Asturias","date":"2019-09-09","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-10-12"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-11-01"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-12-06"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-12-09"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-12-25"} }
+{"comunidad":"ASTURIAS","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-5.85,43.36]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-01-01"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-04-18"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-04-19"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-04-22"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-05-01"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-07-25"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Santiago Apóstol / Día Nacional de Galicia","date":"2019-07-25","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-08-15"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-10-12"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-11-01"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-12-06"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-12-09"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-12-25"} }
+{"comunidad":"CANTABRIA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-3.8,43.45]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-01-01"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-01-07"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-04-18"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-04-19"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-04-23"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Fiesta Castilla y León","date":"2019-04-23","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-05-01"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-08-15"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-10-12"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-11-01"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-12-06"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-12-09"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA Y LEÓN:2019-12-25"} }
+{"comunidad":"CASTILLA Y LEÓN","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-4.72,41.63]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-01-01"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-04-18"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-04-19"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-04-22"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-05-01"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-05-31"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Día de Castilla-La Mancha","date":"2019-05-31","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-06-20"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Corpus Christi","date":"2019-06-20","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-08-15"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-10-12"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-11-01"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-12-06"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA-LA MANCHA:2019-12-25"} }
+{"comunidad":"CASTILLA-LA MANCHA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-4.03,39.86]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-01-01"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-04-19"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-04-22"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-05-01"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-06-24"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"San Juan","date":"2019-06-24","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-08-15"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-09-11"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Fiesta Nacional de Cataluña","date":"2019-09-11","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-10-12"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-11-01"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-12-06"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-12-25"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUÑA:2019-12-26"} }
+{"comunidad":"CATALUÑA","fiesta":{"name":"San Esteban","date":"2019-12-26","location":[2.17,41.38]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-01-01"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-01-07"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-04-18"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-04-19"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-05-01"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-08-12"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Fiesta del Sacrificio - Eidul Adha","date":"2019-08-12","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-08-15"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-09-02"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Día de Ceuta","date":"2019-09-02","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-10-12"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-11-01"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-12-06"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE CEUTA:2019-12-25"} }
+{"comunidad":"CIUDAD DE CEUTA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-5.32,35.89]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-01-01"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-01-07"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-04-18"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-04-19"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-05-01"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-08-12"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Fiesta del Sacrificio (Aid El Kebir)","date":"2019-08-12","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-08-15"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-10-12"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-11-01"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-12-06"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-12-09"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD DE MELILLA:2019-12-25"} }
+{"comunidad":"CIUDAD DE MELILLA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-2.94,35.29]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-01-01"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-03-19"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"San José","date":"2019-03-19","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-04-19"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-04-22"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-05-01"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-06-24"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"San Juan","date":"2019-06-24","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-08-15"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-10-09"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Día de la Comunitat Valenciana","date":"2019-10-09","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-10-12"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-11-01"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-12-06"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT VALENCIANA:2019-12-25"} }
+{"comunidad":"COMUNITAT VALENCIANA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-0.38,39.47]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-01-01"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-01-07"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-04-18"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-04-19"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-05-01"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-08-15"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-09-09"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Lunes siguiente al Día de Extremadura","date":"2019-09-09","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-10-12"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-11-01"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-12-06"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-12-09"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-12-25"} }
+{"comunidad":"EXTREMADURA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-6.33,38.9]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-01-01"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-03-19"} }
+{"comunidad":"GALICIA","fiesta":{"name":"San José","date":"2019-03-19","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-04-18"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-04-19"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-05-01"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-05-17"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Día de las Letras Gallegas","date":"2019-05-17","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-07-25"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Santiago Apóstol / Día Nacional de Galicia","date":"2019-07-25","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-08-15"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-10-12"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-11-01"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-12-06"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-12-25"} }
+{"comunidad":"GALICIA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-8.55,42.87]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-01-01"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-03-01"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Día de las Illes Balears","date":"2019-03-01","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-04-18"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-04-19"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-04-22"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-05-01"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-08-15"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-10-12"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-11-01"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-12-06"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-12-25"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES BALEARS:2019-12-26"} }
+{"comunidad":"ILLES BALEARS","fiesta":{"name":"San Esteban","date":"2019-12-26","location":[-2.65,39.57]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-01-01"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-04-18"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-04-19"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-04-22"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-05-01"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-06-10"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Día de La Rioja","date":"2019-06-10","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-08-15"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-10-12"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-11-01"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-12-06"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-12-09"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA RIOJA:2019-12-25"} }
+{"comunidad":"LA RIOJA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-2.45,42.46]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-01-01"} }
+{"comunidad":"MADRID","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-01-07"} }
+{"comunidad":"MADRID","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-04-18"} }
+{"comunidad":"MADRID","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-04-19"} }
+{"comunidad":"MADRID","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-05-01"} }
+{"comunidad":"MADRID","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-05-02"} }
+{"comunidad":"MADRID","fiesta":{"name":"Día de la Comunidad de Madrid","date":"2019-05-02","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-08-15"} }
+{"comunidad":"MADRID","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-10-12"} }
+{"comunidad":"MADRID","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-11-01"} }
+{"comunidad":"MADRID","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-12-06"} }
+{"comunidad":"MADRID","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-12-09"} }
+{"comunidad":"MADRID","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-12-25"} }
+{"comunidad":"MADRID","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-3.68,40.43]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-01-01"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-01-07"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-03-19"} }
+{"comunidad":"MURCIA","fiesta":{"name":"San José","date":"2019-03-19","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-04-18"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-04-19"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-05-01"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-06-10"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Día de la Región de Murcia","date":"2019-06-10","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-08-15"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-10-12"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-11-01"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-12-06"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-12-25"} }
+{"comunidad":"MURCIA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-1.13,37.99]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-01-01"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-01-07"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-03-19"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"San José","date":"2019-03-19","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-04-18"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-04-19"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-04-22"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-05-01"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-08-15"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-10-12"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-11-01"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-12-06"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-12-25"} }
+{"comunidad":"NAVARRA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-1.64,42.82]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-01-01"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-03-19"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"San José","date":"2019-03-19","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-04-18"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-04-19"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-04-22"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-05-01"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-07-25"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Santiago Apóstol / Día Nacional de Galicia","date":"2019-07-25","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-08-15"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-10-12"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-11-01"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-12-06"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAÍS VASCO:2019-12-25"} }
+{"comunidad":"PAÍS VASCO","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-2.68,42.85]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-01-01"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Año Nuevo","date":"2019-01-01","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-01-07"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-04-18"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Jueves Santo","date":"2019-04-18","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-04-19"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Viernes Santo","date":"2019-04-19","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-05-01"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-05-30"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Día de Canarias","date":"2019-05-30","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-08-15"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-10-12"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-11-01"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Todos los Santos","date":"2019-11-01","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-12-06"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06","location":[-15.42,28.15]}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-12-25"} }
+{"comunidad":"CANARIAS","fiesta":{"name":"Natividad del Señor","date":"2019-12-25","location":[-15.42,28.15]}}
