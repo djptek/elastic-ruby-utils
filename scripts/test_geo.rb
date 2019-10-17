@@ -22,7 +22,6 @@ class Source
     target = Target.new
     self.hits.each { |hit|
       # puts hit
-			puts "Adding hit ["+hit["_id"]+"]"
       target.add(hit)
     }
     target.bulk_operations 
@@ -65,7 +64,6 @@ class Target
 
   def bulk_operations
     # client.bulk body: @@operations
-    puts "Writing bulk file ["+@@index+"_bulk.txt]"
     open(@@index+'_bulk.txt', 'a') { |f|
       f << @@operations
     }
@@ -75,6 +73,6 @@ class Target
 end
 
 # MAIN - connect to Elasticsearch
-#Source.new(Elasticsearch::Client.new log: false).query
-Source.new(Elasticsearch::Client.new(:hosts => "http://elastic:password@server1:9200") ).query
+Source.new(Elasticsearch::Client.new log: false).query
+  
 

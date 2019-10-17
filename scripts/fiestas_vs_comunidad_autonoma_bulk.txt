@@ -1,0 +1,68 @@
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Año Nuevo"} }
+{"date":"2019-01-01","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Año Nuevo"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Lunes siguiente a Epifanía"} }
+{"date":"2019-01-07","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","CANARIAS","CASTILLA Y LEÓN","EXTREMADURA","MADRID","MURCIA","NAVARRA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Lunes siguiente a Epifanía"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de Andalucía"} }
+{"date":"2019-02-28","comunidades":["ANDALUCÍA"],"fiesta":"Día de Andalucía"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de las Illes Balears"} }
+{"date":"2019-03-01","comunidades":["ILLES BALEARS"],"fiesta":"Día de las Illes Balears"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "San José"} }
+{"date":"2019-03-19","comunidades":["COMUNITAT VALENCIANA","GALICIA","MURCIA","NAVARRA","PAÍS VASCO"],"fiesta":"San José"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Jueves Santo"} }
+{"date":"2019-04-18","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Jueves Santo"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Viernes Santo"} }
+{"date":"2019-04-19","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Viernes Santo"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Lunes de Pascua"} }
+{"date":"2019-04-22","comunidades":["ILLES BALEARS","CANTABRIA","CASTILLA-LA MANCHA","CATALUÑA","COMUNITAT VALENCIANA","NAVARRA","PAÍS VASCO","LA RIOJA"],"fiesta":"Lunes de Pascua"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "San Jorge / Día de Aragón"} }
+{"date":"2019-04-23","comunidades":["ARAGÓN"],"fiesta":"San Jorge / Día de Aragón"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Fiesta Castilla y León"} }
+{"date":"2019-04-23","comunidades":["CASTILLA Y LEÓN"],"fiesta":"Fiesta Castilla y León"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Fiesta del Trabajo"} }
+{"date":"2019-05-01","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Fiesta del Trabajo"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de la Comunidad de Madrid"} }
+{"date":"2019-05-02","comunidades":["MADRID"],"fiesta":"Día de la Comunidad de Madrid"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de las Letras Gallegas"} }
+{"date":"2019-05-17","comunidades":["GALICIA"],"fiesta":"Día de las Letras Gallegas"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de Canarias"} }
+{"date":"2019-05-30","comunidades":["CANARIAS"],"fiesta":"Día de Canarias"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de Castilla-La Mancha"} }
+{"date":"2019-05-31","comunidades":["CASTILLA-LA MANCHA"],"fiesta":"Día de Castilla-La Mancha"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de la Región de Murcia"} }
+{"date":"2019-06-10","comunidades":["MURCIA"],"fiesta":"Día de la Región de Murcia"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de La Rioja"} }
+{"date":"2019-06-10","comunidades":["LA RIOJA"],"fiesta":"Día de La Rioja"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Corpus Christi"} }
+{"date":"2019-06-20","comunidades":["CASTILLA-LA MANCHA"],"fiesta":"Corpus Christi"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "San Juan"} }
+{"date":"2019-06-24","comunidades":["CATALUÑA","COMUNITAT VALENCIANA"],"fiesta":"San Juan"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Santiago Apóstol / Día Nacional de Galicia"} }
+{"date":"2019-07-25","comunidades":["CANTABRIA","GALICIA","PAÍS VASCO"],"fiesta":"Santiago Apóstol / Día Nacional de Galicia"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Fiesta del Sacrificio - Eidul Adha"} }
+{"date":"2019-08-12","comunidades":["CIUDAD DE CEUTA"],"fiesta":"Fiesta del Sacrificio - Eidul Adha"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Fiesta del Sacrificio (Aid El Kebir)"} }
+{"date":"2019-08-12","comunidades":["CIUDAD DE MELILLA"],"fiesta":"Fiesta del Sacrificio (Aid El Kebir)"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Asunción de la Virgen"} }
+{"date":"2019-08-15","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Asunción de la Virgen"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de Ceuta"} }
+{"date":"2019-09-02","comunidades":["CIUDAD DE CEUTA"],"fiesta":"Día de Ceuta"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Lunes siguiente al Día de Asturias"} }
+{"date":"2019-09-09","comunidades":["ASTURIAS"],"fiesta":"Lunes siguiente al Día de Asturias"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Lunes siguiente al Día de Extremadura"} }
+{"date":"2019-09-09","comunidades":["EXTREMADURA"],"fiesta":"Lunes siguiente al Día de Extremadura"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Fiesta Nacional de Cataluña"} }
+{"date":"2019-09-11","comunidades":["CATALUÑA"],"fiesta":"Fiesta Nacional de Cataluña"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de la Comunitat Valenciana"} }
+{"date":"2019-10-09","comunidades":["COMUNITAT VALENCIANA"],"fiesta":"Día de la Comunitat Valenciana"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Fiesta Nacional de España"} }
+{"date":"2019-10-12","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Fiesta Nacional de España"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Todos los Santos"} }
+{"date":"2019-11-01","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Todos los Santos"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Día de la Constitución Española"} }
+{"date":"2019-12-06","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Día de la Constitución Española"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Lunes siguiente a la Inmaculada Concepción"} }
+{"date":"2019-12-09","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","CANTABRIA","CASTILLA Y LEÓN","EXTREMADURA","MADRID","LA RIOJA","CIUDAD DE MELILLA"],"fiesta":"Lunes siguiente a la Inmaculada Concepción"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "Natividad del Señor"} }
+{"date":"2019-12-25","comunidades":["ANDALUCÍA","ARAGÓN","ASTURIAS","ILLES BALEARS","CANARIAS","CANTABRIA","CASTILLA-LA MANCHA","CASTILLA Y LEÓN","CATALUÑA","COMUNITAT VALENCIANA","EXTREMADURA","GALICIA","MADRID","MURCIA","NAVARRA","PAÍS VASCO","LA RIOJA","CIUDAD DE CEUTA","CIUDAD DE MELILLA"],"fiesta":"Natividad del Señor"}
+{ "index" : { "_index" : "fiestas_vs_comunidad_autonoma", "_type" : "_doc", "_id" : "San Esteban"} }
+{"date":"2019-12-26","comunidades":["ILLES BALEARS","CATALUÑA"],"fiesta":"San Esteban"}

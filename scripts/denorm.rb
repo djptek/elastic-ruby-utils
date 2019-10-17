@@ -1,3 +1,4 @@
+#
 # Export indices from Elasticsearch
 require "elasticsearch"
 
@@ -22,14 +23,13 @@ class Source
     target = Target.new
     self.hits.each { |hit|
       # puts hit
-			puts "Adding hit ["+hit["_id"]+"]"
-      target.add(hit)
+      target.add(hit, @@es_client)
     }
     target.bulk_operations 
   end
 
   def query
-    @search_results = @@es_client.search index: "*",
+    @search_results = @@es_client.search index: "blogs"
       scroll: '5m',
       body: {
         sort: ["_doc"],
@@ -49,12 +49,35 @@ end
 class Target
 
   @@operations = ''
-  @@index = ''
+  @@index = 'log_blogs'
+
+  def process_scroll_batch
+    puts "Processing Scroll Batch ["+self.scroll_id.to_s+"]"
+    target = Target.new
+    self.hits.each { |hit|
+      # puts hit
+      target.add(hit, @@es_client)
+    }
+    target.bulk_operations 
+  end
+
  
-  def add(hit)
-    if hit["_index"] != @@index
-        self.bulk_operations unless @@index == ''
-        @@index = hit["_index"]
+  def add(hit, es_client)
+    @search_results = @@es_client.search index: "logs_server*"
+      scroll: '5m',
+      body: {
+        sort: ["_doc"],
+        size: Max_Size,
+        query: { 
+					"match": { 
+						"originalUrl.keyword": hit.url.keyword 
+    } } }
+    process_scroll_batch
+
+    while @search_results = es_client.scroll(
+      scroll_id: self.scroll_id, 
+      scroll: '5m') and not self.hits.empty? 
+      process_scroll_batch
     end
             
     @@operations.concat '{ "index" : { "_index" : "'+hit["_index"]+
@@ -65,7 +88,6 @@ class Target
 
   def bulk_operations
     # client.bulk body: @@operations
-    puts "Writing bulk file ["+@@index+"_bulk.txt]"
     open(@@index+'_bulk.txt', 'a') { |f|
       f << @@operations
     }
@@ -75,6 +97,6 @@ class Target
 end
 
 # MAIN - connect to Elasticsearch
-#Source.new(Elasticsearch::Client.new log: false).query
-Source.new(Elasticsearch::Client.new(:hosts => "http://elastic:password@server1:9200") ).query
+Source.new(Elasticsearch::Client.new log: false).query
+  
 

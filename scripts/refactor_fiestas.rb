@@ -24,28 +24,6 @@ class Source
 
   def initialize (client)
     @@es_client = client
-#		@@es_client.indices.put_mapping index: Source_Index::Name, 
-#			type: '_doc', 
-#			body: {
-#               mappings: {
-#                 properties: {
-#                   'comunidad': { type: 'keyword'},
-#									 'fiesta': {
-#                     'properties': {
-#                       'date': {
-#                         type: 'date'
-#                       },
-#                       'location': {
-#                         type: 'geo_point'
-#                       },
-#                       'name': {
-#                         type: 'keyword'
-#                         }
-#                       }
-#                     }
-#                 }
-#               }
-#             }
   end
 
   def query
@@ -78,30 +56,7 @@ class Target
   
   def initialize (client)
     @@es_client = client
-#   @@es_client.indices.delete index: Target_Index::Name
-#   @@es_client.indices.put_mapping index: Target_Index::Name, 
-#   type: 'mytype', 
-#			body: {
-#               mappings: {
-#                 properties: {
-#                   'comunidad': { type: 'keyword'},
-#									 'fiesta': {
-#                     'properties': {
-#                       'date': {
-#                         type: 'date'
-#                       },
-#                       'location': {
-#                         type: 'geo_point'
-#                       },
-#                       'name': {
-#                         type: 'keyword'
-#                         }
-#                       }
-#                     }
-#                 }
-#               }
-#             }
-	end
+  end
 
   @@operations = []
 
@@ -129,6 +84,6 @@ class Target
 end
 
 # MAIN - connect to Elasticsearch
-source = Source.new(Elasticsearch::Client.new(:hosts => "http://elastic:ch3353@server1:9200") ).query
+source = Source.new(Elasticsearch::Client.new(:hosts => "http://server1:9200") ).query
   
 

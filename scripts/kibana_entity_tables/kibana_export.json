@@ -1,0 +1,268 @@
+[
+  {
+    "_id": "5dfc2390-c3bd-11e7-8c8b-4136115be590",
+    "_type": "visualization",
+    "_source": {
+      "title": "Car Makes Group by Country",
+      "visState": "{\"title\":\"Car Makes Group by Country\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"background_color_rules\":[{\"id\":\"9cb71560-c0b4-11e7-a7d2-2997d2741341\"}],\"bar_color_rules\":[{\"id\":\"80a963c0-c30f-11e7-80cf-e98ed302444c\"}],\"gauge_color_rules\":[{\"id\":\"814ca8a0-c30f-11e7-80cf-e98ed302444c\"}],\"gauge_inner_width\":10,\"gauge_style\":\"half\",\"gauge_width\":10,\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"mot*\",\"interval\":\"1y\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"number\",\"id\":\"8b371c60-c30f-11e7-80cf-e98ed302444c\",\"line_width\":1,\"metrics\":[{\"id\":\"8b371c61-c30f-11e7-80cf-e98ed302444c\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_color_mode\":\"rainbow\",\"split_mode\":\"filters\",\"stacked\":\"percent\",\"terms_field\":\"make.keyword\",\"terms_size\":\"40\",\"split_filters\":[{\"filter\":\"Make.raw(PEUGEOT CITROEN RENAULT TALBOT SIMCA)\",\"label\":\"FR\",\"color\":\"rgba(248,11,5,1)\",\"id\":\"f068cc30-c3bb-11e7-abe0-538d0b07011f\"},{\"filter\":\"Make.raw(HONDA NISSAN SUZUKI MAZDA TOYOTA)\",\"label\":\"JP\",\"color\":\"rgba(250,113,6,1)\",\"id\":\"06aedac0-c3bc-11e7-abe0-538d0b07011f\"},{\"filter\":\"Make.raw(KIA HYUNDAI)\",\"label\":\"KO\",\"color\":\"rgba(248,252,5,1)\",\"id\":\"339af230-c3bc-11e7-abe0-538d0b07011f\"},{\"filter\":\"Make.raw(FORD MINI VAUXHALL ROVER TRIUMPH LEYLAND JAGUAR MG LAND\\\\\\\\ ROVER ASTON)\",\"label\":\"GB\",\"color\":\"rgba(56,255,6,1)\",\"id\":\"45be8030-c3bc-11e7-abe0-538d0b07011f\"},{\"filter\":\"Make.raw(AUDI MERCEDES-BENZ BMW PORSCHE VOLKSWAGEN MERCEDES)\",\"label\":\"DE\",\"color\":\"rgba(6,240,222,1)\",\"id\":\"6b568630-c3bc-11e7-abe0-538d0b07011f\"},{\"filter\":\"Make.raw(FIAT ALFA\\\\\\\\ ROMEO)\",\"label\":\"IT\",\"color\":\"rgba(4,47,250,1)\",\"id\":\"81ef6fb0-c3bc-11e7-abe0-538d0b07011f\"},{\"filter\":\"Make.raw(SKODA)\",\"label\":\"CZ\",\"color\":\"rgba(248,3,202,1)\",\"id\":\"b3d750b0-c3bc-11e7-abe0-538d0b07011f\"}],\"label\":\"\"}],\"show_grid\":0,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    }
+  },
+  {
+    "_id": "3ef0cef0-c53f-11e7-a30b-f5fd4ff6ddcb",
+    "_type": "visualization",
+    "_source": {
+      "title": "Pass/Fail rate by test mileage",
+      "visState": "{\"title\":\"Pass/Fail rate by test mileage\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\",\"setYExtents\":true,\"max\":100,\"min\":0},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Max pass_rate\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"area\",\"mode\":\"stacked\",\"data\":{\"label\":\"Max pass_rate\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"pass_rate\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"test_mileage\",\"interval\":50000,\"extended_bounds\":{}}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"pf_result.keyword\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"_term\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"59a54610-c53d-11e7-a30b-f5fd4ff6ddcb\",\"filter\":[{\"meta\":{\"index\":\"59a54610-c53d-11e7-a30b-f5fd4ff6ddcb\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"range\",\"key\":\"test_mileage\",\"value\":\"0 to 1,000,000\",\"params\":{\"gte\":0,\"lt\":1000000}},\"range\":{\"test_mileage\":{\"gte\":0,\"lt\":1000000}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "d31bdd00-c688-11e7-9dd5-dd739d5b5182",
+    "_type": "visualization",
+    "_source": {
+      "title": "Pass Fail Vs First Use Date",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customInterval\":\"2h\",\"extended_bounds\":{},\"field\":\"first_use_date\",\"interval\":\"auto\",\"min_doc_count\":1},\"schema\":\"segment\",\"type\":\"date_histogram\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"field\":\"test_result.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":2},\"schema\":\"group\",\"type\":\"terms\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"area\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"area\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"percentage\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}]},\"title\":\"Pass Fail Vs First Use Date\",\"type\":\"area\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"key\":\"test_result.keyword\",\"negate\":false,\"params\":[\"P\",\"F\"],\"type\":\"phrases\",\"value\":\"P, F\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"test_result.keyword\":\"P\"}},{\"match_phrase\":{\"test_result.keyword\":\"F\"}}]}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"key\":\"first_use_date\",\"negate\":false,\"params\":{\"gte\":\"1986-01-01\",\"lt\":\"2016-01-01\"},\"type\":\"range\",\"value\":\"January 1st 1986, 00:00:00.000 to January 1st 2016, 00:00:00.000\"},\"range\":{\"first_use_date\":{\"gte\":\"1986-01-01\",\"lt\":\"2016-01-01\"}}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "22760b30-c54b-11e7-a30b-f5fd4ff6ddcb",
+    "_type": "visualization",
+    "_source": {
+      "title": "Pass Fail Vs Mileage Improved",
+      "visState": "{\"title\":\"Pass Fail Vs Mileage Improved\",\"type\":\"area\",\"params\":{\"type\":\"area\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"percentage\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"area\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"test_mileage\",\"interval\":10000,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"test_result.keyword\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"filter\":[{\"meta\":{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"type\":\"phrases\",\"key\":\"test_result.keyword\",\"value\":\"P, F\",\"params\":[\"P\",\"F\"],\"negate\":false,\"disabled\":false,\"alias\":null},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"test_result.keyword\":\"P\"}},{\"match_phrase\":{\"test_result.keyword\":\"F\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"range\",\"key\":\"test_mileage\",\"value\":\"0 to 250,000\",\"params\":{\"gte\":0,\"lt\":250000}},\"range\":{\"test_mileage\":{\"gte\":0,\"lt\":250000}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "e1ad26b0-c3ce-11e7-8c8b-4136115be590",
+    "_type": "visualization",
+    "_source": {
+      "title": "PORSCHE ASTON MARTIN RELIABILITY SHOOTOUT",
+      "visState": "{\n  \"title\": \"PORSCHE ASTON MARTIN RELIABILITY SHOOTOUT\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"type\": \"pie\",\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"legendPosition\": \"right\",\n    \"isDonut\": false\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"split\",\n      \"params\": {\n        \"field\": \"manufacturer.keyword\",\n        \"size\": 4,\n        \"order\": \"asc\",\n        \"orderBy\": \"_term\",\n        \"customLabel\": \"PORSCHE ASTON MARTIN RELIABILITY SHOOTOUT\",\n        \"row\": false\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"test_result.keyword\",\n        \"size\": 5,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"customLabel\": \"Test Result Pass/Fail\"\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{\n  \"spy\": {\n    \"mode\": {\n      \"name\": \"table\",\n      \"fill\": false\n    }\n  },\n  \"vis\": {\n    \"colors\": {\n      \"P\": \"#7EB26D\",\n      \"F\": \"#EA6460\"\n    },\n    \"legendOpen\": true\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"382be2b0-c0a0-11e7-b168-77c893cd9404\",\n  \"filter\": [\n    {\n      \"meta\": {\n        \"index\": \"382be2b0-c0a0-11e7-b168-77c893cd9404\",\n        \"type\": \"phrases\",\n        \"key\": \"test_result.keyword\",\n        \"value\": \"P, F\",\n        \"params\": [\n          \"P\",\n          \"F\"\n        ],\n        \"negate\": false,\n        \"disabled\": false,\n        \"alias\": null\n      },\n      \"query\": {\n        \"bool\": {\n          \"should\": [\n            {\n              \"match_phrase\": {\n                \"test_result.keyword\": \"P\"\n              }\n            },\n            {\n              \"match_phrase\": {\n                \"test_result.keyword\": \"F\"\n              }\n            }\n          ],\n          \"minimum_should_match\": 1\n        }\n      },\n      \"$state\": {\n        \"store\": \"appState\"\n      }\n    },\n    {\n      \"meta\": {\n        \"index\": \"382be2b0-c0a0-11e7-b168-77c893cd9404\",\n        \"type\": \"phrases\",\n        \"key\": \"manufacturer.keyword\",\n        \"value\": \"PORSCHE, ASTON MARTIN\",\n        \"params\": [\n          \"PORSCHE\",\n          \"ASTON MARTIN\"\n        ],\n        \"negate\": false,\n        \"disabled\": false,\n        \"alias\": null\n      },\n      \"query\": {\n        \"bool\": {\n          \"should\": [\n            {\n              \"match_phrase\": {\n                \"manufacturer.keyword\": \"PORSCHE\"\n              }\n            },\n            {\n              \"match_phrase\": {\n                \"manufacturer.keyword\": \"ASTON MARTIN\"\n              }\n            }\n          ],\n          \"minimum_should_match\": 1\n        }\n      },\n      \"$state\": {\n        \"store\": \"appState\"\n      }\n    }\n  ],\n  \"query\": {\n    \"query\": \"PORSCHE ASTON MARTIN\",\n    \"language\": \"lucene\"\n  }\n}"
+      }
+    }
+  },
+  {
+    "_id": "488d49a0-c6c7-11e7-9dd5-dd739d5b5182",
+    "_type": "visualization",
+    "_source": {
+      "title": "LONDON TAXIS",
+      "visState": "{\"title\":\"LONDON TAXIS\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"area\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"square root\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"test_mileage\",\"interval\":50000,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"filter\":[{\"meta\":{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"make.keyword\",\"value\":\"LONDON TAXIS INT\",\"params\":{\"query\":\"LONDON TAXIS INT\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"make.keyword\":{\"query\":\"LONDON TAXIS INT\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "8abdb280-c684-11e7-9dd5-dd739d5b5182",
+    "_type": "visualization",
+    "_source": {
+      "title": "Of Their Time Makes",
+      "visState": "{\"title\":\"Of Their Time Makes\",\"type\":\"area\",\"params\":{\"type\":\"area\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"percentage\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"area\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"first_use_date\",\"interval\":\"y\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"significant_terms\",\"schema\":\"group\",\"params\":{\"field\":\"make.keyword\",\"size\":1}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "683c4a70-c6c8-11e7-9dd5-dd739d5b5182",
+    "_type": "visualization",
+    "_source": {
+      "title": "MOST VEHICLES 50K",
+      "visState": "{\"title\":\"MOST VEHICLES 50K\",\"type\":\"area\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"area\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"square root\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"test_mileage\",\"interval\":50000,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "966265d0-c315-11e7-b5e9-b7f7e0911793",
+    "_type": "visualization",
+    "_source": {
+      "title": "Car Makes Popularity Stream Percentile",
+      "visState": "{\"title\":\"Car Makes Popularity Stream Percentile\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"background_color_rules\":[{\"id\":\"9cb71560-c0b4-11e7-a7d2-2997d2741341\"}],\"bar_color_rules\":[{\"id\":\"80a963c0-c30f-11e7-80cf-e98ed302444c\"}],\"gauge_color_rules\":[{\"id\":\"814ca8a0-c30f-11e7-80cf-e98ed302444c\"}],\"gauge_inner_width\":10,\"gauge_style\":\"half\",\"gauge_width\":10,\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"mot*\",\"interval\":\"1y\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"number\",\"id\":\"8b371c60-c30f-11e7-80cf-e98ed302444c\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"8b371c61-c30f-11e7-80cf-e98ed302444c\",\"type\":\"count\"}],\"point_size\":\"0\",\"seperate_axis\":0,\"split_color_mode\":\"rainbow\",\"split_mode\":\"terms\",\"stacked\":\"percent\",\"terms_field\":\"manufacturer.keyword\",\"terms_size\":\"40\"}],\"show_grid\":0,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    }
+  },
+  {
+    "_id": "dd7f71e0-c0b5-11e7-b168-77c893cd9404",
+    "_type": "visualization",
+    "_source": {
+      "title": "Car Makes Popularity Stream",
+      "visState": "{\"title\":\"Car Makes Popularity Stream\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":0.5,\"stacked\":\"stacked\",\"terms_field\":\"manufacturer.keyword\",\"split_color_mode\":\"rainbow\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"mot*\",\"interval\":\"1y\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"id\":\"9cb71560-c0b4-11e7-a7d2-2997d2741341\"}]},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    }
+  },
+  {
+    "_id": "94073670-c6f4-11e7-9dd5-dd739d5b5182",
+    "_type": "visualization",
+    "_source": {
+      "title": "New Minis",
+      "visState": "{\"title\":\"New Minis\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"first_use_date\",\"interval\":\"y\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"manufacturer.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"key\":\"model\",\"negate\":false,\"params\":\"mini\",\"type\":\"phrase\",\"value\":\" - \"},\"query\":{\"match\":{\"model\":\"mini\"}}},{\"meta\":{\"index\":\"382be2b0-c0a0-11e7-b168-77c893cd9404\",\"type\":\"phrases\",\"key\":\"manufacturer.keyword\",\"value\":\"MINI, MORRIS, AUSTIN, AUSTIN MORRIS, LEYLAND, BMC, BMW, ROVER, AUSTIN ROVER, LEYLAND CARS, AUSTIN-ROVER, MORRIS MINI MK11\",\"params\":[\"MINI\",\"MORRIS\",\"AUSTIN\",\"AUSTIN MORRIS\",\"LEYLAND\",\"BMC\",\"BMW\",\"ROVER\",\"AUSTIN ROVER\",\"LEYLAND CARS\",\"AUSTIN-ROVER\",\"MORRIS MINI MK11\"],\"negate\":false,\"disabled\":false,\"alias\":null},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"manufacturer.keyword\":\"MINI\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"MORRIS\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"AUSTIN\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"AUSTIN MORRIS\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"LEYLAND\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"BMC\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"BMW\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"ROVER\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"AUSTIN ROVER\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"LEYLAND CARS\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"AUSTIN-ROVER\"}},{\"match_phrase\":{\"manufacturer.keyword\":\"MORRIS MINI MK11\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "a9ca9d00-cff3-11e7-89dd-33ec1987aa37",
+    "_type": "visualization",
+    "_source": {
+      "title": "miles with fail vs days for fix FILTER REMIX",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"2\",\"params\":{\"field\":\"miles_driven_with_fail\"},\"schema\":\"metric\",\"type\":\"avg\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"extended_bounds\":{},\"field\":\"days_for_fix\",\"interval\":10},\"schema\":\"segment\",\"type\":\"histogram\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"2\",\"label\":\"Average miles_driven_with_fail\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Average miles_driven_with_fail\"},\"type\":\"value\"}]},\"title\":\"miles with fail vs days for fix FILTER REMIX\",\"type\":\"histogram\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"6695cba0-cad4-11e7-a1b5-03735f981d6e\",\"filter\":[{\"bool\":{\"should\":[{\"range\":{\"miles_driven_with_fail\":{\"gte\":0,\"lt\":14999}}},{\"range\":{\"days_for_fix\":{\"gte\":\"140\",\"lte\":200}}}]},\"meta\":{\"negate\":false,\"index\":\"6695cba0-cad4-11e7-a1b5-03735f981d6e\",\"disabled\":false,\"alias\":null,\"type\":\"custom\",\"key\":\"bool\",\"value\":\"{\\\"should\\\":[{\\\"range\\\":{\\\"miles_driven_with_fail\\\":{\\\"gte\\\":0,\\\"lt\\\":14999}}},{\\\"range\\\":{\\\"days_for_fix\\\":{\\\"gte\\\":\\\"140\\\",\\\"lte\\\":200}}}]}\"},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"6695cba0-cad4-11e7-a1b5-03735f981d6e\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"range\",\"key\":\"miles_driven_with_fail\",\"value\":\"0 to 20,000\",\"params\":{\"gte\":0,\"lt\":20000}},\"range\":{\"miles_driven_with_fail\":{\"gte\":0,\"lt\":20000}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "3c548a40-cff5-11e7-89dd-33ec1987aa37",
+    "_type": "visualization",
+    "_source": {
+      "title": "miles with fail vs days for fix Median 348",
+      "visState": "{\"title\":\"miles with fail vs days for fix Median 348\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"2\",\"label\":\"Median miles_driven_with_fail\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Median miles_driven_with_fail\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"median\",\"schema\":\"metric\",\"params\":{\"field\":\"miles_driven_with_fail\",\"percents\":[50]}},{\"id\":\"3\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"days_for_fix\",\"interval\":10,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"6695cba0-cad4-11e7-a1b5-03735f981d6e\",\"filter\":[{\"meta\":{\"index\":\"6695cba0-cad4-11e7-a1b5-03735f981d6e\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"range\",\"key\":\"days_for_fix\",\"value\":\"0 to 348\",\"params\":{\"gte\":0,\"lt\":348}},\"range\":{\"days_for_fix\":{\"gte\":0,\"lt\":348}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "a12d8210-cff9-11e7-89dd-33ec1987aa37",
+    "_type": "visualization",
+    "_source": {
+      "title": "miles with fail vs days for fix Median 360",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"2\",\"params\":{\"field\":\"miles_driven_with_fail\",\"percents\":[50]},\"schema\":\"metric\",\"type\":\"median\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"extended_bounds\":{},\"field\":\"days_for_fix\",\"interval\":10},\"schema\":\"segment\",\"type\":\"histogram\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"2\",\"label\":\"Median miles_driven_with_fail\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Median miles_driven_with_fail\"},\"type\":\"value\"}]},\"title\":\"miles with fail vs days for fix Median 360\",\"type\":\"histogram\"}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"6695cba0-cad4-11e7-a1b5-03735f981d6e\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "2524ab00-cade-11e7-a1b5-03735f981d6e",
+    "_type": "visualization",
+    "_source": {
+      "title": "miles with fail vs days for fix",
+      "visState": "{\"title\":\"miles with fail vs days for fix\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"2\",\"label\":\"Average miles_driven_with_fail\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Average miles_driven_with_fail\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"miles_driven_with_fail\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"days_for_fix\",\"interval\":10,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"6695cba0-cad4-11e7-a1b5-03735f981d6e\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  },
+  {
+    "_id": "403df470-d02c-11e7-89dd-33ec1987aa37",
+    "_type": "visualization",
+    "_source": {
+      "title": "MANUFACTURER VS POSTCODE",
+      "visState": "{\"title\":\"MANUFACTURER VS POSTCODE\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"topright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"MANUFACTURER=PORSCHE\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":4}}]}",
+      "uiStateJSON": "{\"mapZoom\":7,\"mapCenter\":[52.546295697522886,-1.3128662109375002]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"filter\":[{\"meta\":{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"manufacturer.keyword\",\"value\":\"PORSCHE\",\"params\":{\"query\":\"PORSCHE\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"manufacturer.keyword\":{\"query\":\"PORSCHE\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "d0ac7bc0-d02d-11e7-89dd-33ec1987aa37",
+    "_type": "visualization",
+    "_source": {
+      "title": "MANUFACTURER VS POSTCODE SKODA",
+      "visState": "{\"title\":\"MANUFACTURER VS POSTCODE SKODA\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"topright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"MANUFACTURER=SKODA\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":4}}]}",
+      "uiStateJSON": "{\"mapZoom\":7,\"mapCenter\":[52.546295697522886,-1.3128662109375002]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"filter\":[{\"meta\":{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"manufacturer.keyword\",\"value\":\"SKODA\",\"params\":{\"query\":\"SKODA\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"manufacturer.keyword\":{\"query\":\"SKODA\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "fb078810-d02d-11e7-89dd-33ec1987aa37",
+    "_type": "visualization",
+    "_source": {
+      "title": "MANUFACTURER VS POSTCODE BMW",
+      "visState": "{\"title\":\"MANUFACTURER VS POSTCODE BMW\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"topright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"MANUFACTURER=BMW\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":4}}]}",
+      "uiStateJSON": "{\"mapZoom\":7,\"mapCenter\":[52.546295697522886,-1.3128662109375002]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"filter\":[{\"meta\":{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"manufacturer.keyword\",\"value\":\"BMW\",\"params\":{\"query\":\"BMW\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"manufacturer.keyword\":{\"query\":\"BMW\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "26dc6320-d02e-11e7-89dd-33ec1987aa37",
+    "_type": "visualization",
+    "_source": {
+      "title": "MANUFACTURER VS POSTCODE PORSCHE",
+      "visState": "{\"title\":\"MANUFACTURER VS POSTCODE PORSCHE\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"topright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"MANUFACTURER=PORSCHE\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":4}}]}",
+      "uiStateJSON": "{\"mapZoom\":7,\"mapCenter\":[52.546295697522886,-1.3128662109375002]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"filter\":[{\"meta\":{\"index\":\"e43c9970-d02a-11e7-89dd-33ec1987aa37\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"manufacturer.keyword\",\"value\":\"PORSCHE\",\"params\":{\"query\":\"PORSCHE\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"manufacturer.keyword\":{\"query\":\"PORSCHE\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  }
+]

@@ -1,0 +1,454 @@
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-01-01"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-01-07"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-02-28"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Día de Andalucía","date":"2019-02-28"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-04-18"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-04-19"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-05-01"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-08-15"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-10-12"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-11-01"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-12-06"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-12-09"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ANDALUCIA:2019-12-25"} }
+{"comunidad":"ANDALUCÍA","location_geo_point":[-5.98,37.37],"location_geo_shape":{"type":"point","coordinates":[-5.98,37.37]},"isocode":"ES-AN","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-01-01"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-01-07"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-04-18"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-04-19"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-04-23"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"San Jorge / Día de Aragón","date":"2019-04-23"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-05-01"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-08-15"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-10-12"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-11-01"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-12-06"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-12-09"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ARAGON:2019-12-25"} }
+{"comunidad":"ARAGÓN","location_geo_point":[-0.88,41.66],"location_geo_shape":{"type":"point","coordinates":[-0.88,41.66]},"isocode":"ES-AR","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-01-01"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-01-07"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-04-18"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-04-19"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-05-01"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-08-15"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-09-09"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Lunes siguiente al Día de Asturias","date":"2019-09-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-10-12"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-11-01"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-12-06"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-12-09"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ASTURIAS:2019-12-25"} }
+{"comunidad":"ASTURIAS","location_geo_point":[-5.85,43.36],"location_geo_shape":{"type":"point","coordinates":[-5.85,43.36]},"isocode":"ES-AS","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-01-01"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-04-18"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-04-19"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-04-22"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-05-01"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-07-25"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Santiago Apóstol / Día Nacional de Galicia","date":"2019-07-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-08-15"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-10-12"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-11-01"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-12-06"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-12-09"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANTABRIA:2019-12-25"} }
+{"comunidad":"CANTABRIA","location_geo_point":[-3.8,43.45],"location_geo_shape":{"type":"point","coordinates":[-3.8,43.45]},"isocode":"ES-CB","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-01-01"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-01-07"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-04-18"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-04-19"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-04-23"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Fiesta Castilla y León","date":"2019-04-23"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-05-01"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-08-15"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-10-12"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-11-01"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-12-06"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-12-09"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_Y_LEON:2019-12-25"} }
+{"comunidad":"CASTILLA Y LEÓN","location_geo_point":[-4.72,41.63],"location_geo_shape":{"type":"point","coordinates":[-4.72,41.63]},"isocode":"ES-CL","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-01-01"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-04-18"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-04-19"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-04-22"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-05-01"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-05-31"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Día de Castilla-La Mancha","date":"2019-05-31"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-06-20"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Corpus Christi","date":"2019-06-20"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-08-15"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-10-12"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-11-01"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-12-06"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CASTILLA_LA_MANCHA:2019-12-25"} }
+{"comunidad":"CASTILLA-LA MANCHA","location_geo_point":[-4.03,39.86],"location_geo_shape":{"type":"point","coordinates":[-4.03,39.86]},"isocode":"ES-CM","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-01-01"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-04-19"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-04-22"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-05-01"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-06-24"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"San Juan","date":"2019-06-24"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-08-15"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-09-11"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Fiesta Nacional de Cataluña","date":"2019-09-11"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-10-12"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-11-01"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-12-06"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-12-25"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CATALUNA:2019-12-26"} }
+{"comunidad":"CATALUÑA","location_geo_point":[2.17,41.38],"location_geo_shape":{"type":"point","coordinates":[2.17,41.38]},"isocode":"ES-CT","fiesta":{"name":"San Esteban","date":"2019-12-26"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-01-01"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-01-07"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-04-18"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-04-19"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-05-01"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-08-12"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Fiesta del Sacrificio - Eidul Adha","date":"2019-08-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-08-15"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-09-02"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Día de Ceuta","date":"2019-09-02"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-10-12"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-11-01"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-12-06"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_CEUTA:2019-12-25"} }
+{"comunidad":"CIUDAD DE CEUTA","location_geo_point":[-5.32,35.89],"location_geo_shape":{"type":"point","coordinates":[-5.32,35.89]},"isocode":"ES-CE","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-01-01"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-01-07"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-04-18"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-04-19"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-05-01"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-08-12"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Fiesta del Sacrificio (Aid El Kebir)","date":"2019-08-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-08-15"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-10-12"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-11-01"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-12-06"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-12-09"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CIUDAD_DE_MELILLA:2019-12-25"} }
+{"comunidad":"CIUDAD DE MELILLA","location_geo_point":[-2.94,35.29],"location_geo_shape":{"type":"point","coordinates":[-2.94,35.29]},"isocode":"ES-ML","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-01-01"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-03-19"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"San José","date":"2019-03-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-04-19"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-04-22"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-05-01"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-06-24"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"San Juan","date":"2019-06-24"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-08-15"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-10-09"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Día de la Comunitat Valenciana","date":"2019-10-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-10-12"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-11-01"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-12-06"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "COMUNITAT_VALENCIANA:2019-12-25"} }
+{"comunidad":"COMUNITAT VALENCIANA","location_geo_point":[-0.38,39.47],"location_geo_shape":{"type":"point","coordinates":[-0.38,39.47]},"isocode":"ES-VC","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-01-01"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-01-07"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-04-18"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-04-19"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-05-01"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-08-15"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-09-09"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Lunes siguiente al Día de Extremadura","date":"2019-09-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-10-12"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-11-01"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-12-06"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-12-09"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "EXTREMADURA:2019-12-25"} }
+{"comunidad":"EXTREMADURA","location_geo_point":[-6.33,38.9],"location_geo_shape":{"type":"point","coordinates":[-6.33,38.9]},"isocode":"ES-EX","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-01-01"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-03-19"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"San José","date":"2019-03-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-04-18"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-04-19"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-05-01"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-05-17"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Día de las Letras Gallegas","date":"2019-05-17"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-07-25"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Santiago Apóstol / Día Nacional de Galicia","date":"2019-07-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-08-15"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-10-12"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-11-01"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-12-06"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "GALICIA:2019-12-25"} }
+{"comunidad":"GALICIA","location_geo_point":[-8.55,42.87],"location_geo_shape":{"type":"point","coordinates":[-8.55,42.87]},"isocode":"ES-GA","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-01-01"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-03-01"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Día de las Illes Balears","date":"2019-03-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-04-18"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-04-19"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-04-22"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-05-01"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-08-15"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-10-12"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-11-01"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-12-06"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-12-25"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "ILLES_BALEARS:2019-12-26"} }
+{"comunidad":"ILLES BALEARS","location_geo_point":[-2.65,39.57],"location_geo_shape":{"type":"point","coordinates":[-2.65,39.57]},"isocode":"ES-IB","fiesta":{"name":"San Esteban","date":"2019-12-26"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-01-01"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-04-18"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-04-19"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-04-22"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-05-01"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-06-10"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Día de La Rioja","date":"2019-06-10"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-08-15"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-10-12"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-11-01"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-12-06"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-12-09"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "LA_RIOJA:2019-12-25"} }
+{"comunidad":"LA RIOJA","location_geo_point":[-2.45,42.46],"location_geo_shape":{"type":"point","coordinates":[-2.45,42.46]},"isocode":"ES-RI","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-01-01"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-01-07"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-04-18"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-04-19"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-05-01"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-05-02"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Día de la Comunidad de Madrid","date":"2019-05-02"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-08-15"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-10-12"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-11-01"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-12-06"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-12-09"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Lunes siguiente a la Inmaculada Concepción","date":"2019-12-09"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MADRID:2019-12-25"} }
+{"comunidad":"MADRID","location_geo_point":[-3.68,40.43],"location_geo_shape":{"type":"point","coordinates":[-3.68,40.43]},"isocode":"ES-MD","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-01-01"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-01-07"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-03-19"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"San José","date":"2019-03-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-04-18"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-04-19"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-05-01"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-06-10"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Día de la Región de Murcia","date":"2019-06-10"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-08-15"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-10-12"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-11-01"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-12-06"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "MURCIA:2019-12-25"} }
+{"comunidad":"MURCIA","location_geo_point":[-1.13,37.99],"location_geo_shape":{"type":"point","coordinates":[-1.13,37.99]},"isocode":"ES-MC","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-01-01"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-01-07"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-03-19"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"San José","date":"2019-03-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-04-18"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-04-19"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-04-22"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-05-01"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-08-15"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-10-12"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-11-01"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-12-06"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "NAVARRA:2019-12-25"} }
+{"comunidad":"NAVARRA","location_geo_point":[-1.64,42.82],"location_geo_shape":{"type":"point","coordinates":[-1.64,42.82]},"isocode":"ES-NC","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-01-01"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-03-19"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"San José","date":"2019-03-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-04-18"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-04-19"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-04-22"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Lunes de Pascua","date":"2019-04-22"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-05-01"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-07-25"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Santiago Apóstol / Día Nacional de Galicia","date":"2019-07-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-08-15"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-10-12"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-11-01"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-12-06"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "PAIS_VASCO:2019-12-25"} }
+{"comunidad":"PAÍS VASCO","location_geo_point":[-2.68,42.85],"location_geo_shape":{"type":"point","coordinates":[-2.68,42.85]},"isocode":"ES-PV","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-01-01"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Año Nuevo","date":"2019-01-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-01-07"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Lunes siguiente a Epifanía","date":"2019-01-07"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-04-18"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Jueves Santo","date":"2019-04-18"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-04-19"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Viernes Santo","date":"2019-04-19"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-05-01"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Fiesta del Trabajo","date":"2019-05-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-05-30"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Día de Canarias","date":"2019-05-30"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-08-15"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Asunción de la Virgen","date":"2019-08-15"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-10-12"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Fiesta Nacional de España","date":"2019-10-12"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-11-01"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Todos los Santos","date":"2019-11-01"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-12-06"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Día de la Constitución Española","date":"2019-12-06"}}
+{ "index" : { "_index" : "comunidad_autonoma_vs_fiestas", "_type" : "_doc", "_id" : "CANARIAS:2019-12-25"} }
+{"comunidad":"CANARIAS","location_geo_point":[-15.42,28.15],"location_geo_shape":{"type":"point","coordinates":[-15.42,28.15]},"isocode":"ES-CN","fiesta":{"name":"Natividad del Señor","date":"2019-12-25"}}
