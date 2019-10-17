@@ -58,7 +58,6 @@ class Target
     end
             
     @@operations.concat '{ "index" : { "_index" : "'+hit["_index"]+
-          '", "_type" : "'+hit["_type"]+
           '", "_id" : "'+hit["_id"]+"\"} }\n"+
           hit["_source"].to_json+"\n" 
   end
