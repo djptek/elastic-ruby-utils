@@ -1,0 +1,33 @@
+######
+
+Lab Guide: Monitoring the Elastic Stack
+
+######
+
+Lab 1: Monitoring Elasticsearch and Kibana
+
+######
+
+GET _cat/nodes?v
+
+######
+
+GET _cat/nodes?v&s=name
+
+######
+
+PUT _cluster/settings
+{
+  "persistent": {
+    "xpack.monitoring.collection.enabled": true
+  }
+}
+
+######
+
+Lab 2: Monitoring Beats and Logstash
+
+######
+
+Lab 3: Uptime Monitoring
+

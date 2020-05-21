@@ -1,0 +1,1456 @@
+######
+
+Lab Guide: Processing Data (Elasticsearch Ingest Pipelines version)
+
+######
+
+Lab 1: Working with Fields
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "grok": {
+          "field": "message",
+          "patterns": [
+            "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+          ]
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 test AppServer2 108529 Started 4.5"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "drop": {
+        "if": "ctx['env'] == 'test'"
+      }
+    }
+  ]
+}
+
+######
+
+PUT my_index
+{
+  "settings": {
+    "default_pipeline": "my_pipeline"
+  }
+}
+
+######
+
+POST my_index/_bulk
+{ "index": {}}
+{  "message": "2019 09 29 00:39:02.912 157.97.192.70 prod AppServer1 107673 Started 3.8" }
+{ "index": {}}
+{ "message": "2019 09 29 14:40:06.554 168.181.49.210 test AppServer2 108529 Started 4.5" }
+
+######
+
+GET my_index/_search
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/my_pipeline/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 test AppServer2 108529 Started 4.5"
+      }
+    }
+  ]
+}
+
+######
+
+POST my_index/_bulk
+{ "index": {}}
+{  "message": "2019 09 29 00:39:02.912 157.97.192.70 prod AppServer1 107673 Started 3.8" }
+{ "index": {}}
+{ "message": "2019 09 29 14:40:06.554 168.181.49.210 test AppServer2 108529 Started 4.5" }
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time", "message"]
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/my_pipeline/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 test AppServer2 108529 Started 4.5"
+      }
+    }
+  ]
+}
+
+######
+
+Lab 2: Converting Values
+
+######
+
+GET _ingest/pipeline/my_pipeline
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/my_pipeline/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 test AppServer2 108529 Started 4.5"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "lowercase": {
+        "field": "env"
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    },
+    {
+      "rename": {
+        "field": "ip",
+        "target_field": "server.ip"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "lowercase": {
+        "field": "env"
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    },
+    {
+      "rename": {
+        "field": "ip",
+        "target_field": "server.ip"
+      }
+    },
+    {
+      "uppercase": {
+        "field": "env",
+        "target_field": "server.env"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/my_pipeline/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 Prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 Test AppServer2 108529 Started 4.5"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "lowercase": {
+        "field": "env"
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    },
+    {
+      "rename": {
+        "field": "ip",
+        "target_field": "server.ip"
+      }
+    },
+    {
+      "uppercase": {
+        "field": "env",
+        "target_field": "server.env"
+      }
+    },
+    {
+      "date": {
+        "field": "@timestamp",
+        "formats": ["YYYY MM dd HH:mm:ss.SSS"]
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}",
+          "%{MONTHNUM:month}/%{MONTHDAY:day}/%{YEAR:year} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "lowercase": {
+        "field": "env"
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    },
+    {
+      "rename": {
+        "field": "ip",
+        "target_field": "server.ip"
+      }
+    },
+    {
+      "uppercase": {
+        "field": "env",
+        "target_field": "server.env"
+      }
+    },
+    {
+      "date": {
+        "field": "@timestamp",
+        "formats": ["YYYY MM dd HH:mm:ss.SSS", "MM/dd/YYYY HH:mm:ss.SSS"]
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/my_pipeline/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 Prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 Test AppServer2 108529 Started 4.5"
+      }
+    },
+    {
+      "_source": {
+        "message": "09/29/2019 06:42:12.000 67.188.114.16 Test AppServer3 28064212 Started 5"
+      }
+    }
+  ]
+}
+
+######
+
+Lab 3: Enriching Documents
+
+######
+
+GET _ingest/pipeline/my_pipeline
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}",
+          "%{MONTHNUM:month}/%{MONTHDAY:day}/%{YEAR:year} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "lowercase": {
+        "field": "env"
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    },
+    {
+      "rename": {
+        "field": "ip",
+        "target_field": "server.ip"
+      }
+    },
+    {
+      "uppercase": {
+        "field": "env",
+        "target_field": "server.env"
+      }
+    },
+    {
+      "date": {
+        "field": "@timestamp",
+        "formats": ["YYYY MM dd HH:mm:ss.SSS", "MM/dd/YYYY HH:mm:ss.SSS"]
+      }
+    },
+    {
+      "geoip": {
+        "field": "server.ip",
+        "target_field": "server.geoip"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/my_pipeline/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 Prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 Test AppServer2 108529 Started 4.5"
+      }
+    },
+    {
+      "_source": {
+        "message": "09/29/2019 06:42:12.000 67.188.114.16 Test AppServer3 28064212 Started 5"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}",
+          "%{MONTHNUM:month}/%{MONTHDAY:day}/%{YEAR:year} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "lowercase": {
+        "field": "env"
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    },
+    {
+      "rename": {
+        "field": "ip",
+        "target_field": "server.ip"
+      }
+    },
+    {
+      "uppercase": {
+        "field": "env",
+        "target_field": "server.env"
+      }
+    },
+    {
+      "date": {
+        "field": "@timestamp",
+        "formats": ["YYYY MM dd HH:mm:ss.SSS", "MM/dd/YYYY HH:mm:ss.SSS"]
+      }
+    },
+    {
+      "geoip": {
+        "field": "server.ip",
+        "target_field": "server.geoip",
+        "properties": ["city_name", "continent_name", "country_iso_code", "country_name", "location", "region_name", "timezone"]
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/my_pipeline
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+        "patterns": [
+          "%{YEAR:year} %{MONTHNUM:month} %{MONTHDAY:day} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}",
+          "%{MONTHNUM:month}/%{MONTHDAY:day}/%{YEAR:year} %{TIME:time} %{IP:ip} %{WORD:env} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+        ]
+      }
+    },
+    {
+      "lowercase": {
+        "field": "env"
+      }
+    },
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_{{env}}_index"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{year}} {{month}} {{day}} {{time}}"
+      }
+    },
+    {
+      "remove": {
+        "field": ["year", "month", "day", "time"]
+      }
+    },
+    {
+      "remove": {
+        "field": "message"
+      }
+    },
+    {
+      "convert": {
+        "field": "process_id",
+        "type": "integer"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": { "name": "{{server}}" }
+      }
+    },
+    {
+      "rename": {
+        "field": "ip",
+        "target_field": "server.ip"
+      }
+    },
+    {
+      "uppercase": {
+        "field": "env",
+        "target_field": "server.env"
+      }
+    },
+    {
+      "geoip": {
+        "field": "server.ip",
+        "target_field": "server.geoip",
+        "properties": ["city_name", "continent_name", "country_iso_code", "country_name", "location", "region_name", "timezone"]
+      }
+    },
+    {
+      "date": {
+        "field": "@timestamp",
+        "formats": ["YYYY MM dd HH:mm:ss.SSS", "MM/dd/YYYY HH:mm:ss.SSS"],
+        "timezone": "{{server.geoip.timezone}}"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/my_pipeline/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "2019 09 29 00:39:02.912 157.97.192.70 Prod AppServer1 107673 Started 3.8"
+      }
+    },
+    {
+      "_source": {
+        "message": "2019 09 29 14:40:06.554 168.181.49.210 Test AppServer2 108529 Started 4.5"
+      }
+    },
+    {
+      "_source": {
+        "message": "09/29/2019 06:42:12.000 67.188.114.16 Test AppServer3 28064212 Started 5"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/web_access_logs
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+       "patterns" : [
+         "%{COMBINEDAPACHELOG}"
+        ],
+        "ignore_missing" : true
+      }
+    },
+    {
+      "convert": {
+        "field": "bytes",
+        "type": "integer"
+      }
+    },
+    {
+      "date": {
+        "field": "timestamp",
+        "formats": ["dd/MMM/YYYY:HH:mm:ss Z"],
+        "target_field": "@timestamp"
+      }
+    },
+    {
+      "remove": {
+        "field": "timestamp"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/web_access_logs/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "83.149.9.216 - - [26/Aug/2014:21:13:42 +0000] \"GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1\" 200 203023 \"http://semicomplete.com/presentations/logstash-monitorama-2013/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36\""
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/web_access_logs
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+       "patterns" : [
+         "%{COMBINEDAPACHELOG}"
+        ],
+        "ignore_missing" : true
+      }
+    },
+    {
+      "convert": {
+        "field": "bytes",
+        "type": "integer"
+      }
+    },
+    {
+      "date": {
+        "field": "timestamp",
+        "formats": ["dd/MMM/YYYY:HH:mm:ss Z"],
+        "target_field": "@timestamp"
+      }
+    },
+    {
+      "remove": {
+        "field": "timestamp"
+      }
+    },
+    {
+      "geoip": {
+        "field": "clientip"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/web_access_logs
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+       "patterns" : [
+         "%{COMBINEDAPACHELOG}"
+        ],
+        "ignore_missing" : true
+      }
+    },
+    {
+      "convert": {
+        "field": "bytes",
+        "type": "integer"
+      }
+    },
+    {
+      "date": {
+        "field": "timestamp",
+        "formats": ["dd/MMM/YYYY:HH:mm:ss Z"],
+        "target_field": "@timestamp"
+      }
+    },
+    {
+      "remove": {
+        "field": "timestamp"
+      }
+    },
+    {
+      "geoip": {
+        "field": "clientip"
+      }
+    },
+    {
+      "user_agent": {
+        "field": "agent"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/web_access_logs
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+       "patterns" : [
+         "%{COMBINEDAPACHELOG}"
+        ],
+        "ignore_missing" : true
+      }
+    },
+    {
+      "convert": {
+        "field": "bytes",
+        "type": "integer"
+      }
+    },
+    {
+      "date": {
+        "field": "timestamp",
+        "formats": ["dd/MMM/YYYY:HH:mm:ss Z"],
+        "target_field": "@timestamp"
+      }
+    },
+    {
+      "geoip": {
+        "field": "clientip"
+      }
+    },
+    {
+      "user_agent": {
+        "field": "agent"
+      }
+    },
+    {
+      "remove": {
+        "field": ["agent", "message", "timestamp"]
+      }
+    },
+    {
+      "rename": {
+        "field": "clientip",
+        "target_field": "geoip.ip"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/web_access_logs/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "83.149.9.216 - - [26/Aug/2014:21:13:42 +0000] \"GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1\" 200 203023 \"http://semicomplete.com/presentations/logstash-monitorama-2013/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36\""
+      }
+    }
+  ]
+}
+
+######
+
+Lab 4: Scripts
+
+######
+
+GET _ingest/pipeline/web_access_logs
+
+######
+
+PUT _ingest/pipeline/web_access_logs
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+       "patterns" : [
+         "%{COMBINEDAPACHELOG}"
+        ],
+        "ignore_missing" : true
+      }
+    },
+    {
+      "convert": {
+        "field": "bytes",
+        "type": "integer"
+      }
+    },
+    {
+      "date": {
+        "field": "timestamp",
+        "formats": ["dd/MMM/YYYY:HH:mm:ss Z"],
+        "target_field": "@timestamp"
+      }
+    },
+    {
+      "geoip": {
+        "field": "clientip"
+      }
+    },
+    {
+      "user_agent": {
+        "field": "agent"
+      }
+    },
+    {
+      "remove": {
+        "field": ["agent", "message", "timestamp"]
+      }
+    },
+    {
+      "rename": {
+        "field": "clientip",
+        "target_field": "geoip.ip"
+      }
+    },
+    {
+      "script": {
+        "lang": "painless",
+        "source": "ctx.kilo_bytes = (float) ctx.bytes / 1000"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/web_access_logs/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "83.149.9.216 - - [26/Aug/2014:21:13:42 +0000] \"GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1\" 200 203023 \"http://semicomplete.com/presentations/logstash-monitorama-2013/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36\""
+      }
+    }
+  ]
+}
+
+######
+
+POST _scripts/is_private_ip
+{
+  "script": {
+  "lang": "painless",
+  "source": """
+    boolean isPrivate(def dot, def ip) {
+      try {
+        StringTokenizer tok = new StringTokenizer(ip, dot);
+        int firstByte = Integer.parseInt(tok.nextToken());
+        int secondByte = Integer.parseInt(tok.nextToken());
+        if (firstByte == 10) { return true; }
+        if (firstByte == 192 && secondByte == 168) { return true; }
+        if (firstByte == 172 && secondByte >= 16 && secondByte <= 31) { return true; }
+        if (firstByte == 127) { return true; }
+        return false;
+
+      } catch (Exception e) { return false; }
+    } try {
+      ctx.geoip.private = isPrivate(params.dot, ctx.geoip.ip);
+    } catch (Exception e) { ctx.geoip.private = null; }
+"""
+  }
+}
+
+######
+
+PUT _ingest/pipeline/web_access_logs
+{
+  "processors": [
+    {
+      "grok": {
+        "field": "message",
+       "patterns" : [
+         "%{COMBINEDAPACHELOG}"
+        ],
+        "ignore_missing" : true
+      }
+    },
+    {
+      "convert": {
+        "field": "bytes",
+        "type": "integer"
+      }
+    },
+    {
+      "date": {
+        "field": "timestamp",
+        "formats": ["dd/MMM/YYYY:HH:mm:ss Z"],
+        "target_field": "@timestamp"
+      }
+    },
+    {
+      "geoip": {
+        "field": "clientip"
+      }
+    },
+    {
+      "user_agent": {
+        "field": "agent"
+      }
+    },
+    {
+      "remove": {
+        "field": ["agent", "message", "timestamp"]
+      }
+    },
+    {
+      "rename": {
+        "field": "clientip",
+        "target_field": "geoip.ip"
+      }
+    },
+    {
+      "script": {
+        "lang": "painless",
+        "source": "ctx.kilo_bytes = (float) ctx.bytes / 1000"
+      }
+    },
+    {
+      "script": {
+        "id": "is_private_ip",
+        "params": {
+          "dot": "."
+        }
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/web_access_logs/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "83.149.9.216 - - [26/Aug/2014:21:13:42 +0000] \"GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1\" 200 203023 \"http://semicomplete.com/presentations/logstash-monitorama-2013/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36\""
+      }
+    },
+    {
+      "_source": {
+        "message": "172.18.0.2 - - [21/Nov/2019:06:24:40 +0000] \"POST /api/console/proxy?path=_mapping&method=GET HTTP/1.1\" 200 20565 \"http://ec2-18-197-50-222.eu-central-1.compute.amazonaws.com/app/kibana\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:70.0) Gecko/20100101 Firefox/70.0\" \"-\""
+      }
+    }
+  ]
+}
+
+######
+
+GET _ingest/pipeline/filebeat-7.3.2-apache-access-default
+GET _ingest/pipeline/filebeat-7.3.2-nginx-access-default
+
+######
+
+POST _ingest/pipeline/filebeat-7.3.2-apache-access-default/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "83.149.9.216 - - [26/Aug/2014:21:13:42 +0000] \"GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1\" 200 203023 \"http://semicomplete.com/presentations/logstash-monitorama-2013/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36\"",
+        "@timestamp" : "2019-11-21T06:24:40.000Z"
+      }
+    },
+    {
+      "_source": {
+        "message": "172.18.0.2 - - [21/Nov/2019:06:24:40 +0000] \"POST /api/console/proxy?path=_mapping&method=GET HTTP/1.1\" 200 20565 \"http://ec2-18-197-50-222.eu-central-1.compute.amazonaws.com/app/kibana\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:70.0) Gecko/20100101 Firefox/70.0\" \"-\"",
+        "@timestamp": "2019-11-21T06:24:40.000Z"
+      }
+    }
+  ]
+}
+
+######
+
+POST _ingest/pipeline/filebeat-7.3.2-nginx-access-default/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "message": "83.149.9.216 - - [26/Aug/2014:21:13:42 +0000] \"GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1\" 200 203023 \"http://semicomplete.com/presentations/logstash-monitorama-2013/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36\"",
+        "@timestamp" : "2019-11-21T06:24:40.000Z"
+      }
+    },
+    {
+      "_source": {
+        "message": "172.18.0.2 - - [21/Nov/2019:06:24:40 +0000] \"POST /api/console/proxy?path=_mapping&method=GET HTTP/1.1\" 200 20565 \"http://ec2-18-197-50-222.eu-central-1.compute.amazonaws.com/app/kibana\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:70.0) Gecko/20100101 Firefox/70.0\" \"-\"",
+        "@timestamp": "2019-11-21T06:24:40.000Z"
+      }
+    }
+  ]
+}
+

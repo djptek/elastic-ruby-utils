@@ -1,0 +1,665 @@
+######
+
+Lab Guide: Structuring Data (Elasticsearch Ingest Pipelines version)
+
+######
+
+Lab 1: Structuring Data with the Elastic Stack
+
+######
+
+GET _ingest/pipeline/filebeat-7.3.2-apache-access-default
+
+######
+
+POST /_ingest/pipeline/filebeat-7.3.2-apache-access-default/_simulate
+{
+  "docs": [
+    {
+      "_source": {
+        "@timestamp": "2019-11-24T08:40:42.297Z",
+        "message": """
+212.123.230.34 - - [18/Mar/2019:18:31:15 -0500] "GET /kibana-3.0.0milestone5/app/panels/query/meta.html HTTP/1.1" 200 1349 "http://localhost/kibana-3.0.0milestone5/"
+"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.9 (KHTML, like Gecko) Version/7.0.2 Safari/537.74.9
+"""
+      }
+    }
+  ]
+}
+
+######
+
+Lab 2: Split and KV
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": []
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "2019-09-29T00:39:02.912Z|AppServer1|STATUS_OK"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "split": {
+          "field": "message",
+          "separator": "\\|"
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "2019-09-29T00:39:02.912Z|AppServer1|STATUS_OK"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "split": {
+          "field": "message",
+          "separator": "\\|",
+          "target_field": "split_message"
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "2019-09-29T00:39:02.912Z|AppServer1|STATUS_OK"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "split": {
+          "field": "message",
+          "separator": "\\|",
+          "target_field": "split_message"
+        }
+      },
+      {
+        "set": {
+          "field": "@timestamp",
+          "value": "{{split_message.0}}"
+        }
+      },
+      {
+        "set": {
+          "field": "server",
+          "value": "{{split_message.1}}"
+        }
+      },
+      {
+        "set": {
+          "field": "status",
+          "value": "{{split_message.2}}"
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "2019-09-29T00:39:02.912Z|AppServer1|STATUS_OK"
+      }
+    }
+  ]
+}
+
+######
+
+PUT /_ingest/pipeline/my_split_pipeline
+{
+  "processors": [
+    {
+      "split": {
+        "field": "message",
+        "separator": "\\|",
+        "target_field": "split_message"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{split_message.0}}"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": "{{split_message.1}}"
+      }
+    },
+    {
+      "set": {
+        "field": "status",
+        "value": "{{split_message.2}}"
+      }
+    }
+  ]
+}
+
+######
+
+PUT my_split_index
+{
+  "settings": {
+    "default_pipeline": "my_split_pipeline"
+  }
+}
+
+######
+
+PUT my_split_index/_doc/1
+{
+  "message": "2019-09-39T01:34:32.134|AppServer3|STATUS_FAILED"
+}
+
+######
+
+GET my_split_index/_doc/1
+
+######
+
+PUT my_split_index/_doc/2
+{
+  "message": "Another message"
+}
+
+######
+
+GET my_split_index/_doc/2
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": []
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "2019-09-29T00:39:02.912Z server=AppServer1|status=STATUS_OK"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "split": {
+          "field": "message",
+          "separator": " "
+        }
+      },
+      {
+        "set": {
+          "field": "@timestamp",
+          "value": "{{message.0}}"
+        }
+      },
+      {
+        "set": {
+          "field": "event",
+          "value": "{{message.1}}"
+        }
+      },
+      {
+        "kv": {
+          "field": "event",
+          "field_split": "\\|",
+          "value_split": "="
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "2019-09-29T00:39:02.912Z server=AppServer1|status=STATUS_OK"
+      }
+    }
+  ]
+}
+
+######
+
+Lab 3: Dissect
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "split": {
+          "field": "message",
+          "separator": "\\|",
+          "target_field": "split_message"
+        }
+      },
+      {
+        "set": {
+          "field": "@timestamp",
+          "value": "{{split_message.0}}"
+        }
+      },
+      {
+        "set": {
+          "field": "server",
+          "value": "{{split_message.1}}"
+        }
+      },
+      {
+        "set": {
+          "field": "status",
+          "value": "{{split_message.2}}"
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "Another message"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "split": {
+          "field": "message",
+          "separator": "\\|",
+          "target_field": "split_message"
+        }
+      },
+      {
+        "set": {
+          "field": "@timestamp",
+          "value": "{{split_message.0}}"
+        }
+      },
+      {
+        "set": {
+          "field": "server",
+          "value": "{{split_message.1}}"
+        }
+      },
+      {
+        "set": {
+          "field": "status",
+          "value": "{{split_message.2}}"
+        }
+      }
+    ],
+    "on_failure": [
+      {
+        "set": {
+          "field": "_index",
+          "value": "my_pipelinefailures"
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "Another message"
+      }
+    }
+  ]
+}
+
+######
+
+PUT /_ingest/pipeline/my_split_pipeline
+{
+  "processors": [
+    {
+      "split": {
+        "field": "message",
+        "separator": "\\|",
+        "target_field": "split_message"
+      }
+    },
+    {
+      "set": {
+        "field": "@timestamp",
+        "value": "{{split_message.0}}"
+      }
+    },
+    {
+      "set": {
+        "field": "server",
+        "value": "{{split_message.1}}"
+      }
+    },
+    {
+      "set": {
+        "field": "status",
+        "value": "{{split_message.2}}"
+      }
+    }
+  ],
+  "on_failure": [
+    {
+      "set": {
+        "field": "_index",
+        "value": "my_pipelinefailures"
+      }
+    }
+  ]
+}
+
+######
+
+PUT my_split_index/_doc/2
+{
+  "message": "Another message"
+}
+
+######
+
+GET my_split_index/_doc/2
+
+######
+
+GET my_pipelinefailures/_doc/2
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": []
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 [30/Apr/2019:22:00:52 +0000] AppServer1 \"Initializing process\" duration:276ms"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "dissect": {
+          "field": "message",
+          "pattern": "%{ip} [%{@timestamp}] %{server} \"%{operation}\" duration:%{duration}ms"
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 [30/Apr/2019:22:00:52 +0000] AppServer1 \"Initializing process\" duration:276ms"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "dissect": {
+          "field": "message",
+          "pattern": "%{ip} %{@timestamp} %{+@timestamp} %{+@timestamp} %{+@timestamp} %{server} \"%{operation}\" duration:%{duration}ms",
+          "append_separator": " "
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 30 Apr 2019 22:00:52+0000 AppServer1 \"Initializing process\" duration:276ms"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "dissect": {
+          "field": "message",
+          "pattern": "%{ip} %{@timestamp} %{+@timestamp} %{+@timestamp} %{+@timestamp} %{server} %{*field}:%{&field}",
+          "append_separator": " "
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 30 Apr 2019 22:00:52+0000 AppServer1 event:Initializing"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 30 Apr 2019 22:00:52+0000 AppServer1 duration:276"
+      }
+    }
+  ]
+}
+
+######
+
+PUT /_ingest/pipeline/my_dissect_pipeline
+{
+  "processors": [
+    {
+      "dissect": {
+        "field": "message",
+        "pattern": "%{ip} %{@timestamp} %{+@timestamp} %{+@timestamp} %{+@timestamp} %{server} %{*field}:%{&field}",
+        "append_separator": " "
+      }
+    }
+  ]
+}
+
+######
+
+GET my_logs/_search
+
+######
+
+Lab 4: Grok
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": []
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:02.912 AppServer1 Process 107673 Initializing"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:06.554 AppServer1 107673 Stopped 3.642"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "grok": {
+          "field": "message",
+          "patterns": [
+            "%{IP:ip} %{EVENTDATE:@timestamp} %{WORD:server} Process %{NUMBER:process_id} %{WORD:action}",
+            "%{IP:ip} %{EVENTDATE:@timestamp} %{WORD:server} %{NUMBER:process_id} %{WORD:action} %{NUMBER:duration:float}"
+          ],
+          "pattern_definitions": {
+            "EVENTDATE": "%{YEAR} %{MONTHNUM} %{MONTHDAY} %{TIME}"
+          }
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:02.912 AppServer1 Process 107673 Initializing"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:06.554 AppServer1 107673 Stopped 3.642"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "grok": {
+          "field": "message",
+          "patterns": [
+            "%{IP:ip} %{EVENTDATE:@timestamp} %{WORD:server} Process %{NUMBER:process_id} %{WORD:action}",
+            "%{IP:ip} %{EVENTDATE:@timestamp} %{WORD:server} %{NUMBER:process_id} %{WORD:action}( %{NUMBER:duration:float})?"
+          ],
+          "pattern_definitions": {
+            "EVENTDATE": "%{YEAR} %{MONTHNUM} %{MONTHDAY} %{TIME}"
+          }
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:02.912 AppServer1 Process 107673 Initializing"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:06.554 AppServer1 107673 Stopped 3.642"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:05.443 AppServer1 107673 Paused"
+      }
+    }
+  ]
+}
+
+######
+
+POST /_ingest/pipeline/_simulate
+{
+  "pipeline": {
+    "processors": [
+      {
+        "grok": {
+          "field": "message",
+          "patterns": [
+            "%{IP:ip} %{EVENTDATE:@timestamp} %{WORD:server} Process %{NUMBER:process_id} %{WORD:action}",
+            "%{IP:ip} %{EVENTDATE:@timestamp} %{WORD:server} %{NUMBER:process_id} %{WORD:action}( (%{NUMBER:duration:float}|%{WORD:status}))?"
+          ],
+          "pattern_definitions": {
+            "EVENTDATE": "%{YEAR} %{MONTHNUM} %{MONTHDAY} %{TIME}"
+          }
+        }
+      }
+    ]
+  },
+  "docs": [
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:02.912 AppServer1 Process 107673 Initializing"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:06.554 AppServer1 107673 Stopped 3.642"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:05.443 AppServer1 107673 Paused"
+      }
+    },
+    {
+      "_source": {
+        "message": "157.97.192.70 2019 09 29 00:39:05.443 AppServer1 107673 Unpaused STATUS_OK"
+      }
+    }
+  ]
+}
+

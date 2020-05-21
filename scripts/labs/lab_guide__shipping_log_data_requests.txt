@@ -1,0 +1,41 @@
+######
+
+Lab Guide: Shipping Log Data
+
+######
+
+Lab 1: Filebeat Architecture
+
+######
+
+Lab 2: Modules
+
+######
+
+Lab 3: Resilience
+
+######
+
+DELETE filebeat-7.3.1-*
+
+######
+
+GET filebeat-7.3.1/_search
+{
+  "query": {
+    "match": {
+      "log.file.path": "/home/elastic/datasets/nginx.log"
+    }
+  }
+}
+
+######
+
+Lab 4: Multiline Processing
+
+######
+
+GET filebeat-java_stack_trace-*/_search
+GET filebeat-fb_xml_world_population-*/_search
+GET filebeat-fb_xml_world_population-*/_search?q=root|data
+

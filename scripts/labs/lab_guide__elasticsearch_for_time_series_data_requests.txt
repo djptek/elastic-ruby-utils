@@ -1,0 +1,412 @@
+######
+
+Lab Guide: Elasticsearch for Time Series Data
+
+######
+
+Lab 1: Basic Concepts
+
+######
+
+GET _cat/nodes?v
+
+######
+
+GET _cat/indices?v
+
+######
+
+GET _cat/shards?v
+
+######
+
+PUT my_metrics
+{
+  "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 0
+  }
+}
+
+######
+
+GET _cat/shards/my_metrics?v&h=index,shard,prirep,state,node&s=index,shard
+
+######
+
+PUT my_metrics/_settings
+{
+  "number_of_replicas": 1
+}
+
+######
+
+GET _cat/shards/my_metrics?v&h=index,shard,prirep,state,node&s=index,shard
+
+######
+
+PUT my_metrics/_doc/1
+{
+  "@timestamp": "2019-03-21T05:57:19.722Z",
+  "metricset": {
+    "module": "system",
+    "name": "load",
+    "rtt": 81
+  },
+  "tag": "dev"
+}
+
+######
+
+POST my_metrics/_doc
+{
+  "@timestamp": "2019-03-21T05:57:23.354Z",
+  "metricset": {
+    "module": "nginx",
+    "name": "stubstatus",
+    "rtt":81
+  },
+  "tag": "dev"
+}
+
+######
+
+PUT my_metrics/_doc/1
+{
+  "@timestamp": "2019-03-21T05:57:19.722Z",
+  "metricset": {
+    "module": "system",
+    "name":"load",
+    "rtt":81
+  },
+  "tag": "prod"
+}
+
+######
+
+POST my_metrics/_update/1
+{
+  "doc": {
+    "tag": "prod"
+  }
+}
+
+######
+
+GET my_metrics/_doc/1
+
+######
+
+DELETE my_metrics/_doc/1
+
+######
+
+GET my_metrics/_search
+
+######
+
+DELETE my_metrics
+
+######
+
+Lab 2: Mappings
+
+######
+
+GET raw-logs/_mapping
+
+######
+
+GET _template/apachelogs
+
+######
+
+POST _reindex?wait_for_completion=false
+{
+  "source": {
+    "index": "raw-logs"
+  },
+  "dest": {
+    "index": "apachelogs-000001"
+  }
+}
+
+######
+
+GET apachelogs-000001/_mapping
+
+######
+
+GET _template/filebeat-7.3.1
+GET _template/metricbeat-7.3.1
+
+######
+
+GET filebeat-7.3.1/_mapping
+GET metricbeat-7.3.1/_mapping
+
+######
+
+GET filebeat-{stack-version}-YYYY.MM.dd-000001/_mapping
+GET metricbeat-{stack-version}-YYYY.MM.dd-000001/_mapping
+
+######
+
+Lab 3: Queries and Aggregations
+
+######
+
+GET apachelogs-*/_search
+{
+  "query": {
+    "match": {
+      "useragent.device": "other"
+    }
+  }
+}
+
+######
+
+GET filebeat-7.3.1-*/_search
+{
+  "query": {
+    "match": {
+      "user_agent.device.name": "other"
+    }
+  }
+}
+
+######
+
+GET apachelogs-*/_mapping
+GET filebeat-7.3.1-*/_mapping
+
+######
+
+GET filebeat-7.3.1-*/_search
+{
+  "size": 0,
+  "aggs": {
+    "top_devices": {
+      "terms": {
+        "field": "user_agent.device.name"
+      }
+    }
+  }
+}
+
+######
+
+GET filebeat-7.3.1-*/_search
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "match": {
+            "url.original": "\/instructions\/index.html"
+          }
+        },
+        {
+          "terms": {
+            "user_agent.name": [
+              "Chrome",
+              "Firefox",
+              "IE",
+              "Safari"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+
+######
+
+GET metricbeat-7.3.1-*/_search
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "range": {
+            "system.memory.actual.used.pct": {
+              "gte": 0.45
+            }
+          }
+        },
+        {
+          "range": {
+            "@timestamp": {
+              "lte": "now",
+              "gte": "now-15m"
+            }
+          }
+        }
+        ]
+    }
+  }
+}
+
+######
+
+Lab 4: Index Management
+
+######
+
+GET _cat/nodeattrs?v
+
+######
+
+PUT _ilm/policy/apachelogs
+{
+  "policy": {
+    "phases": {
+      "hot": {
+        "actions": {
+          "rollover": {
+            "max_age": "1d",
+            "max_docs": 300000,
+            "max_size": "5gb"
+          },
+          "set_priority": {
+            "priority": 50
+          }
+        }
+      },
+      "warm": {
+        "actions": {
+          "set_priority": {
+            "priority": 25
+          },
+          "allocate": {
+            "require": {
+              "temperature": "warm"
+            }
+          },
+          "shrink": {
+            "number_of_shards": 1
+          },
+          "forcemerge": {
+            "max_num_segments": 1
+          }
+        }
+      },
+      "cold": {
+        "min_age": "7d",
+        "actions": {
+          "set_priority": {
+            "priority": 0
+          },
+          "freeze": {},
+          "allocate": {
+            "require": {
+              "temperature": "cold"
+            }
+          }
+        }
+      },
+      "delete": {
+        "min_age": "30d",
+        "actions": {
+          "delete": {}
+        }
+      }
+    }
+  }
+}
+
+######
+
+POST _aliases
+{
+  "actions": [
+    {
+      "add": {
+        "index": "apachelogs-000001",
+        "alias": "apachelogs",
+        "is_write_index": true
+      }
+    }
+  ]
+}
+
+######
+
+PUT _template/apachelogs-hot-warm-cold-delete
+{
+  "order": 10,
+  "index_patterns": ["apachelogs-*"],
+  "settings": {
+    "index.routing.allocation.require.temperature": "hot",
+    "index.lifecycle.name": "apachelogs",
+    "index.lifecycle.rollover_alias": "apachelogs"
+  }
+}
+
+######
+
+PUT apachelogs-000001/_settings
+{
+  "index.lifecycle.name": "apachelogs",
+  "index.lifecycle.rollover_alias": "apachelogs"
+}
+
+######
+
+PUT _cluster/settings
+{
+    "transient": {
+      "indices.lifecycle.poll_interval": "5s"
+    }
+}
+
+######
+
+POST apachelogs/_doc
+{
+  "useragent" : {
+    "name" : "Chrome",
+    "os" : "Linux",
+    "major" : "33",
+    "minor" : "0",
+    "patch" : "1750",
+    "build" : "",
+    "os_name" : "Linux",
+    "device" : "Other"
+  },
+  "agent" : """Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36""",
+  "response" : 200,
+  "geoip" : {
+    "timezone" : "America/Sao_Paulo",
+    "country_code3" : "BR",
+    "region_code" : "PR",
+    "country_name" : "Brazil",
+    "continent_code" : "SA",
+    "city_name" : "Curitiba",
+    "location" : {
+      "lat" : -25.5026,
+      "lon" : -49.2916
+    },
+    "postal_code" : "80000",
+    "longitude" : -49.2916,
+    "region_name" : "Parana",
+    "ip" : "200.150.64.146",
+    "latitude" : -25.5026,
+    "country_code2" : "BR"
+  },
+  "verb" : "GET",
+  "request" : "/reset.css",
+  "referrer" : """http://www.semicomplete.com/projects/keynav/""",
+  "ident" : "-",
+  "bytes" : 1015,
+  "httpversion" : "1.1",
+  "@timestamp" : "2019-08-02T00:25:25.000Z",
+  "auth" : "-"
+}
+
+######
+
+GET _cat/shards/apachelogs-*?v&h=index,shard,prirep,state,node&s=index,shard
+

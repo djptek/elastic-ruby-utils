@@ -1,0 +1,107 @@
+######
+
+Lab Guide: Logging Fundamentals
+
+######
+
+Lab 1: What are Logs?
+
+######
+
+Lab 2: Getting Started with Filebeat and Logs
+
+######
+
+PUT _ingest/pipeline/setter
+{
+  "description": "sets an object",
+  "processors": [
+    {
+      "set": {
+        "field": "attrs.env",
+        "value": "dev"
+      }
+    },
+    {
+      "set": {
+        "field": "attrs.zone",
+        "value": "us-west"
+      }
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/add_geoip
+{
+  "description" : "Add geoip info",
+  "processors" : [
+    {
+      <ENTER PROCESSOR DETAILS HERE>
+    }
+  ]
+}
+
+######
+
+PUT _ingest/pipeline/add_geoip
+{
+  "description" : "Add geoip info",
+  "processors" : [
+    {
+      "geoip": {
+        "field": "clientip"
+      }
+    }
+  ]
+}
+
+######
+
+PUT my_index/_doc/my_id?pipeline=lookup_geoip
+{
+  "ip": "8.8.8.8"
+}
+
+######
+
+PUT my_index/_doc/my_id?pipeline=add_geoip
+{
+  "clientip": "8.8.8.8"
+}
+
+######
+
+GET my_index/_doc/my_id
+
+######
+
+PUT _ingest/pipeline/big-pipe
+{
+  "description": "sets an object",
+  "processors": [
+    {
+      "set": {
+        "field": "attrs.env",
+        "value": "dev"
+      }
+    },
+    {
+      "set": {
+        "field": "attrs.zone",
+        "value": "us-west"
+      }
+    },
+    {
+      "geoip": {
+        "field": "clientip"
+      }
+    }
+  ]
+}
+
+######
+
+Lab 3: Kibana Visualizations
+

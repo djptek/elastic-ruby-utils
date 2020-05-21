@@ -1,0 +1,60 @@
+######
+
+Lab Guide: Analyzing Logs in Kibana
+
+######
+
+Lab 1.1: Kibana Basics
+
+######
+
+Lab 1.2: Visualizations and Dashboards
+
+######
+
+Lab 1.3: Time Series Visual Builder
+
+######
+
+Lab 2.1: Observability
+
+######
+
+PUT post-ecs/_mapping
+{
+  "properties": {
+    "response": {
+      "type": "alias",
+      "path": "http.response.status_code"
+    }
+  }
+}
+
+######
+
+Lab 2.2: Analyzing Uptime
+
+######
+
+Lab 2.3: Analyzing Infrastructures
+
+######
+
+Lab 2.4: Analyzing Logs
+
+######
+
+Lab 3.1: Machine Learning
+
+######
+
+Lab 3.2: Machine Learning Visualizations
+
+######
+
+Lab 3.3: Alerting
+
+######
+
+POST pre-ecs/_update_by_query
+
