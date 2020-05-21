@@ -16,13 +16,15 @@ class Parsed_XML
 
   # accessor for <code/> elements
   def code_elements
-    return @doc.xpath '//code'
+    #return @doc.xpath '//'
+    return @doc.xpath '//body//text()'
   end
     
   def traverse_elements
     solutions = ''
     code_elements.each do |code|
       solutions << "######\n\n#{code.text}\n\n" if 
+        code.path.end_with?( 'h1/text()', 'h2/text()') or
         code.text.start_with?( 'GET ', 'PUT ', 'POST ', 'DELETE ')
     end
     return solutions
